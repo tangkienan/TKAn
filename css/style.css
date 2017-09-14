@@ -13,3 +13,10 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+a,#m-content-1{
+	width: 25%
+	margin:0px;
+	padding: 0px;
+	background-color: #e0ff00; 
+}
