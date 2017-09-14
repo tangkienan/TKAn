@@ -1,0 +1,77 @@
+
+/*++++++++++HEADER+++++++++*/
+/****UPPER****/
+#header-upper{
+	background-color: #242442;
+	height: 55px;
+	padding-top: 15px;
+}
+a, a:hover, a:focus{
+	text-decoration: none;
+	color:white;
+}
+#header-upper-left {
+	font-size: 11px;
+}
+
+.glyphicon-envelope{
+	color: #2aacff;
+}
+/****LOWER****/
+#header-lower{
+	background-color: #fff;
+}
+.navbar{
+	height: 85px;
+	font-size: 40px;
+	padding-top: 25px;
+	line-height: 40px;
+}
+nav.navbar.shrink{
+	min-height: 35px;
+}
+
+/*animation*/
+nav.navbar{
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+.navbar-fixed{
+	top: 0;
+	position: fixed;
+	width: 100%;
+}
+/*++++++++++END OF HEADER+++++++++*/
+
+/*~~~~~~~~~~MAIN CONTENT~~~~~~~~~~*/
+#main-content{
+	background: url(../images/bg.png) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+
+
+/*~~~~~~~~~~END OF MAIN CONTENT~~~~~~~~~~*/
+
+/*----------FOOTER----------*/
+#footer{
+	background-color: #242442;
+	height: 385px;
+}
+
+/*----------END OF FOOTER-----------*/
+
+
+@media (min-width: 992px){
+
+}
+
+@media(max-width: 991px) and (min-width: 769px){
+
+}
+
+@media(max-width: 768px){
+
+}
