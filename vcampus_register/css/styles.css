@@ -10,6 +10,9 @@ a, a:hover, a:focus{
 	text-decoration: none;
 	color:white;
 }
+a:hover{
+	color:#2aacff;
+}
 #header-upper-left {
 	font-size: 11px;
 }
@@ -20,27 +23,35 @@ a, a:hover, a:focus{
 /****LOWER****/
 #header-lower{
 	background-color: #fff;
+	border: 0;
+	padding:0;
+	width: 100%;	
 }
-.navbar{
-	height: 85px;
-	font-size: 40px;
-	padding-top: 25px;
-	line-height: 40px;
-}
-nav.navbar.shrink{
-	min-height: 35px;
-}
-
-/*animation*/
-nav.navbar{
-   -webkit-transition: all 0.4s ease;
-   transition: all 0.4s ease;
-}
-
-.navbar-fixed{
-	top: 0;
+.header-fixed{
 	position: fixed;
-	width: 100%;
+	margin-top: -55px;
+	
+}
+
+header.navbar-normal{
+	font-size: 40px;
+	height: 80px;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+header.navbar-shrink{
+	min-height: 40px;
+	font-size: 20px;	
+	line-height: 20px;
+	padding-top: -20px;
+}
+
+div,header,span{
+	transition: .1s all;
+	-moz-transition: .1s all;
+	-webkit-transition: .1s all;
+	-o-transition: .1s all;
 }
 /*++++++++++END OF HEADER+++++++++*/
 
@@ -57,10 +68,41 @@ nav.navbar{
 
 /*----------FOOTER----------*/
 #footer{
+	padding-top: 30px;
 	background-color: #242442;
 	height: 385px;
+	color:white;
 }
-
+.footer-title{
+	color:#2aacff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+    padding-left: 10px;
+	padding-right: 10px;
+}
+.footer-content{
+	padding-top: 20px;
+	font-size: 14px;
+}
+ul.footer-content{
+	line-height: 40px;
+}
+ul{
+	list-style-image: url('../images/bullet.png');
+}
+p.footer-content{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+input{
+	width: 100%;
+}
+.check-btn{
+	background-color: #2aacff;
+	color:white;
+	border: none;
+}
 /*----------END OF FOOTER-----------*/
 
 
