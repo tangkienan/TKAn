@@ -1,9 +1,13 @@
 
 /*++++++++++HEADER+++++++++*/
+body{
+	font-family: "Lato"
+}
 /****UPPER****/
 #header-upper{
 	background-color: #242442;
 	height: 55px;
+	margin-right: -15px;
 	padding-top: 15px;
 }
 a, a:hover, a:focus{
@@ -13,45 +17,119 @@ a, a:hover, a:focus{
 a:hover{
 	color:#2aacff;
 }
+
 #header-upper-left {
-	font-size: 11px;
+	float: left;
+}
+
+#navbar-upper-right{		
+	float: right;
+	color:white;
 }
 
 .glyphicon-envelope{
 	color: #2aacff;
 }
+
+
+.fa-facebook {
+  background: #242442;
+  color: white;
+  margin-right: 20px;
+}
+
+.fa-google {
+  background: #242442;
+  color: white;
+  margin-right: 20px;
+}
+
+.fa-instagram {
+  background: #242442;
+  color: white;
+  margin-right: 20px;
+}
+
+.fa-twitter {
+  background: #242442;
+  color: white;  
+  margin-right: 60px;
+}
+
+.sign-in{
+	margin-right: 10px;
+}
+.sign-up{
+	margin-left: 10px;
+}
+.dropbtn {
+    background-color: #242441;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #242442;
+}
 /****LOWER****/
 #header-lower{
 	background-color: #fff;
 	border: 0;
-	padding:0;
-	width: 100%;	
+	width: 100%;
+	height: 100px;
 }
-.header-fixed{
-	position: fixed;
-	margin-top: -55px;
-	
+#header-lower-left {
+	float: left;
 }
-
-header.navbar-normal{
-	font-size: 40px;
-	height: 80px;
-	line-height: 40px;
-	padding-top: 20px;
+#navbar-lower-right{
+	float: right;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 40px;
 }
-
-header.navbar-shrink{
-	min-height: 40px;
-	font-size: 20px;	
-	line-height: 20px;
-	padding-top: -20px;
+.navbar-logo{
+	margin-top: 25px;
 }
 
-div,header,span{
-	transition: .1s all;
-	-moz-transition: .1s all;
-	-webkit-transition: .1s all;
-	-o-transition: .1s all;
+.catagory-catalog{
+	color:black;
+	margin-right: 20px;	
+}
+.catagory-specializations{
+	color:black;
+	margin-right: 20px;
+}
+.catagory-institutions{
+	color:black;
+	margin-right: 0px;
 }
 /*++++++++++END OF HEADER+++++++++*/
 
@@ -61,6 +139,56 @@ div,header,span{
 	background-size: cover;
 	height: 100vh;
 	width: 100vw;
+}
+#sign-up-table{
+	width: 770px;
+	margin:30px auto;
+	padding: 30px 15px 50px 50px;
+	background-color: white;
+	line-height: 40px;
+	height: 90%;
+}
+.sign-up-table-header{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.form-input{
+	border:none;
+	background-color: #f5f5f5;
+}
+.form-email{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 0px;
+}
+.form-name{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 0px; 
+}
+.form-pwd{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 0px; 
+}
+
+.term-agree{
+	font-size: 14px;
+	padding-left: 0px;/*
+	margin: 15px 0 0 0;*/
+}
+input[type="checkbox"]{
+	width: 20px;
+	height: 20px;
+}
+.checkbox label{
 }
 
 
@@ -72,18 +200,20 @@ div,header,span{
 	background-color: #242442;
 	height: 385px;
 	color:white;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .footer-title{
 	color:#2aacff;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 16px;
-    padding-left: 10px;
-	padding-right: 10px;
+    
 }
 .footer-content{
 	padding-top: 20px;
 	font-size: 14px;
+	line-height: 24px;
 }
 ul.footer-content{
 	line-height: 40px;
@@ -91,12 +221,9 @@ ul.footer-content{
 ul{
 	list-style-image: url('../images/bullet.png');
 }
-p.footer-content{
-	padding-left: 10px;
-	padding-right: 10px;
-}
+
 input{
-	width: 100%;
+	width: 90%;
 }
 .check-btn{
 	background-color: #2aacff;

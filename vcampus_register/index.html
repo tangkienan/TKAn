@@ -7,6 +7,8 @@
     <title>ECEP LCMS | Sign Up</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<!-- *****HEADER***** -->
@@ -14,28 +16,47 @@
 	<header>
 		<nav id="header-upper">
 			<div class="container">
-				<div id="navbar-left pull-left">
+				<span id="navbar-upper-left">
 					<a href="#">
 						<span class="glyphicon glyphicon-envelope"></span>
-						<span id="header-upper-left">admin@eceptvn.com</span>
+						<span>admin@ecepvn.com</span>
 					</a>
-				</div>
-				<div id="navbar-right pull-right">
-					<div class="socials">
-						<a href="" class=""></a>
-					</div>
-				</div>
+				</span>
+				<span id="navbar-upper-right">
+						<a href="#" class="fa fa-facebook hidden-xs"></a>
+						<a href="#" class="fa fa-google hidden-xs"></a>
+						<a href="#" class="fa fa-instagram hidden-xs"></a>
+						<a href="#" class="fa fa-twitter hidden-xs"></a>
+						<a href="#" class="sign-in">Sign In</a>  
+						<span>|</span>
+						<a href="#" class="sign-up">Sign Up</a>
+						<span class="dropdown hidden-xs">
+							<button class="dropbtn"><i class="fa fa-globe"></i></button>
+							<span class="dropdown-content">
+								<a href="#">English</a>
+								<a href="#">Vietnamese</a>
+							</span>
+						</span>
+				</span>
 			</div>
 		</nav>
 		<!-- LOWER HEADER -->
-		<nav id="header-lower" class="">
+		<nav id="header-lower">
 			<div class="container">
-				<div id="navbar-left pull-left">
-						<span>ECEP</span>
-				</div>
-				<div id="navbar-right pull-right">
-					
-				</div>
+				<span id="navbar-lower-left">
+						<img class="navbar-logo" src="images/logo-color-4.png" alt="logo" >
+				</span>
+				<span id="navbar-lower-right">
+						<!-- <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+      					</button> -->
+						<a href="#" class="catagory-catalog">catalog</a>
+						<a href="#" class="catagory-specializations">specializations</a>
+						<a href="#" class="catagory-institutions">institutions</a>
+				</span>
 			</div>
 		</nav>
 	</header>
@@ -43,7 +64,35 @@
 
 	<!-- ~~~~~MAIN CONTENT~~~~~ -->
 	<div id="main-content" class="container">
-
+		<div id="sign-up-table">
+			<p class="sign-up-table-header">sign up and start learning</p>
+			<div class="form-email">
+				<span>email</span>
+				<p><input type="text" name="email" class="form-input"></p>
+			</div>
+			<div class="form-name col-lg-6 col-md-6 col-xs-12">
+				<span>first name</span>
+				<input type="text" name="email" class="form-input">
+			</div>
+			<div class="form-name col-lg-6 col-md-6 col-xs-12">
+				<span>last name</span>
+				<input type="text" name="email" class="form-input">
+			</div>
+			<div class="form-pwd col-lg-6 col-md-6 col-xs-12">
+				<span>password</span>
+				<input type="text" name="email" class="form-input">
+			</div>
+			<div class="form-pwd col-lg-6 col-md-6 col-xs-12">
+				<span>comfirm password</span>
+				<input type="text" name="email" class="form-input">
+			</div>
+			<div class="term-agree col-lg-12 col-md-12 col-xs-12">				
+				<div class="checkbox">
+					<label><input type="checkbox" name="checkbox">I agree with the Terms of Use . </label>
+				</div>
+				</form>
+			</div>
+		</div>
 	</div>
 	<!-- ~~~~~END OF MAIN CONTENT~~~~~ -->
 
